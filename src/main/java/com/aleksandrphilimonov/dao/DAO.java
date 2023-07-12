@@ -1,4 +1,4 @@
-package com.aleksandrphilimonov;
+package com.aleksandrphilimonov.dao;
 
 import java.util.List;
 
