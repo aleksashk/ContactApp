@@ -1,7 +1,5 @@
 package com.aleksandrphilimonov.service;
 
-import com.aleksandrphilimonov.converter.ServiceUserToUserDtoConverter;
-
 import static com.aleksandrphilimonov.dao.DaoFactory.getServiceUserDao;
 
 public class ServiceFactory {

@@ -1,8 +1,5 @@
 package com.aleksandrphilimonov.service;
 
-import com.aleksandrphilimonov.converter.ServiceUserToUserDtoConverter;
-import com.aleksandrphilimonov.dao.ServiceUserDao;
-import com.aleksandrphilimonov.domain.ServiceUser;
 import com.aleksandrphilimonov.dto.UserDto;
 import com.aleksandrphilimonov.exception.CommonServiceException;
 import org.junit.Test;

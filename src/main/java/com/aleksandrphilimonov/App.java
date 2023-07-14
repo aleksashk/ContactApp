@@ -1,7 +1,6 @@
 package com.aleksandrphilimonov;
 
 import com.aleksandrphilimonov.exception.CommonServiceException;
-import com.aleksandrphilimonov.service.SecurityService;
 import com.aleksandrphilimonov.service.ServiceFactory;
 
 public class App {

@@ -1,5 +1,7 @@
 package com.aleksandrphilimonov.dao;
 
+import com.aleksandrphilimonov.exception.CommonServiceException;
+
 import java.sql.SQLException;
 import java.util.List;
 
@@ -8,7 +10,7 @@ public interface Dao<DOMAIN, ID> {
 
     List<DOMAIN> findByAll() throws SQLException;
 
-    DOMAIN insert(DOMAIN domain) throws SQLException;
+    DOMAIN insert(DOMAIN domain) throws SQLException, CommonServiceException;
 
     DOMAIN update(DOMAIN domain) throws SQLException;
 
